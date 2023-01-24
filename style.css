@@ -12,10 +12,17 @@
 
 }
 
+
+
+
+/* DEBUG  */
+
 .header, .left-bar, .right-content{
     position: fixed;
     border: red solid 1px;
 }
+
+/* LEFT BAR */
 
 .left-bar{
     bottom: 0;
@@ -25,16 +32,43 @@
     background-color: var(--dark);
 }
 
+.admin-link{
+    padding-top: 440px;
+}
+
+
+
+
+/* RIGHT CONTENT */
+
 .right-content{
     right: 0;
     bottom: 0;
     height: calc(100vh - 70px);
-    width: calc(100% - -150px);
+    width: calc(100% - 150px);
 
 }
+
+
+/* HEADER */
 
 .header{
     height: 70px;
     width: 100%;
     
+}
+
+
+
+@media (max-width: 778px){
+    .left-bar{
+        width: 70px;
+    }
+
+    .display-n{
+        display: none;
+    }
+
+
+
 }
