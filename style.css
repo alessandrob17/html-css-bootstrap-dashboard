@@ -8,13 +8,13 @@
 :root{
     --blue: #1B72E8;
     --darkwhite: #F8F9FA;
+    --dark: #0E263B;
 
 }
 
 .header, .left-bar, .right-content{
     position: fixed;
     border: red solid 1px;
-    padding: 25px;
 }
 
 .left-bar{
@@ -22,7 +22,7 @@
     width: 150px;
     height: calc(100vh - 70px);
     background-image: url(img/sidebar-bg.png);
-    background-color: #0E263B;
+    background-color: var(--dark);
 }
 
 .right-content{
