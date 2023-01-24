@@ -1,0 +1,40 @@
+* {
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+:root{
+    --blue: #1B72E8;
+    --darkwhite: #F8F9FA;
+
+}
+
+.header, .left-bar, .right-content{
+    position: fixed;
+    border: red solid 1px;
+    padding: 25px;
+}
+
+.left-bar{
+    bottom: 0;
+    width: 150px;
+    height: calc(100vh - 70px);
+    background-image: url(img/sidebar-bg.png);
+    background-color: #0E263B;
+}
+
+.right-content{
+    right: 0;
+    bottom: 0;
+    height: calc(100vh - 70px);
+    width: calc(100% - -150px);
+
+}
+
+.header{
+    height: 70px;
+    width: 100%;
+    
+}
