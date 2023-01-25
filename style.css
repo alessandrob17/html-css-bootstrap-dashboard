@@ -64,10 +64,23 @@ img{
     
 }
 
+.bg-sec-header{
+    background-color: white;
+    
+}
+
+
+.pdd{
+    border: red solid 2px;
+}
 .logo-boo{
     width: 135px;
 }
 
+.logo-mobile{
+    display: none;
+    width: 40px;
+}
 
 
 @media (max-width: 778px){
@@ -79,6 +92,20 @@ img{
         display: none;
     }
 
+    .logo-mobile{
+        display: block;
+    }
+
+
+    .logo-boo{
+        display: none;
+    }
+
+    .fa-bell{
+        margin-left: 30px;
+    }
+
+    
 
 
 }
