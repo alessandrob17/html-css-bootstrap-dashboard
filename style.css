@@ -24,7 +24,7 @@ img{
 
 .header, .left-bar, .right-content{
     position: fixed;
-    border: red solid 1px;
+    /* border: red solid 1px; */
 }
 
 /* LEFT BAR */
@@ -51,6 +51,7 @@ img{
     bottom: 0;
     height: calc(100vh - 70px);
     width: calc(100% - 150px);
+    overflow: auto;
 
 }
 
@@ -75,9 +76,9 @@ img{
 }
 
 
-.pdd{
+/* .pdd{
     border: red solid 2px;
-}
+} */
 .logo-boo{
     width: 135px;
 }
@@ -123,6 +124,7 @@ img{
         width: calc(100% - 70px);
     }
 
+ 
     
 
 
