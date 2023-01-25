@@ -54,6 +54,11 @@ img{
 
 }
 
+.blu-header{
+    background-color: var(--blue);
+    height: 120px;
+}
+
 
 /* HEADER */
 
@@ -82,6 +87,12 @@ img{
     width: 40px;
 }
 
+PILLS CLASSES
+
+.pill-blu{
+    background-color: blue;
+}
+
 
 @media (max-width: 778px){
     .left-bar{
@@ -103,6 +114,10 @@ img{
 
     .fa-bell{
         margin-left: 30px;
+    }
+
+    .right-content{
+        width: calc(100% - 70px);
     }
 
     
